@@ -14,4 +14,4 @@ jobs:
           uses: actions/checkout@v4
 
         - name: Build Docker image
-          run: dokcer build -t vue-practice-activity-app
+          run: docker build -t vue-practice-activity-app
